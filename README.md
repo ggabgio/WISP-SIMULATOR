@@ -13,7 +13,7 @@ It provides a virtual environment where users can learn, practice, and evaluate 
 
 ---
 
-## Purpose
+# Purpose
 This project addresses the lack of structured training for aspiring WISP technicians by offering an interactive and scalable simulation platform.
 
 Users can:
