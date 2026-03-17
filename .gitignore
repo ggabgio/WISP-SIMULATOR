@@ -6,6 +6,9 @@
 [Ll]ogs/
 UserSettings/
 Assets/Firebase/Plugins/
+Assets/google-services.json
+Assets/StreamingAssets/google-services.json
+Assets/StreamingAssets/google-services-desktop.json
 
 *.csproj
 *.unityproj
