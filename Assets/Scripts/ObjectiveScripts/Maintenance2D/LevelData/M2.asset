@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a076423bcce386f41af0bb078d5d1df2, type: 3}
+  m_Name: M2
+  m_EditorClassIdentifier: 
+  levelName: Sudden Slow Speeds
+  clientName: Emily Rodriguez
+  plan: WISP Home 50 Mbps
+  customerReport: After a lightning storm last night, our internet is extremely slow.
+    We can barely load a webpage, but the connection seems stable.
+  correctFix: Reconfigure Router Settings
+  fixSceneName: M2_Fix
+  requiredPointsToFix: 6
+  infoPoints:
+  - category: Equipment
+    infoName: Router Configuration
+    description: Router has reverted to a 'Failsafe' configuration, limiting bandwidth
+      to 1 Mbps and disabling QoS and client prioritization.
+    points: 6
+  - category: Equipment
+    infoName: Router Power Supply
+    description: Power adapter readings are slightly unstable following the storm,
+      but within operational limits.
+    points: 1
+  - category: Network
+    infoName: Bandwidth Utilization
+    description: Speed test confirms a hard cap at 1 Mbps, far below the customer's
+      50 Mbps plan.
+    points: 3
+  - category: Network
+    infoName: Signal Strength
+    description: Signal strength remains within normal levels, confirming no alignment
+      or wireless link issues.
+    points: 1
+  - category: Network
+    infoName: Access Point
+    description: Access point is online and broadcasting the correct SSID, but throughput
+      is severely throttled due to router limits.
+    points: 2
+  - category: System
+    infoName: System Uptime
+    description: Device logs show an unexpected restart during the storm, suggesting
+      a brief power interruption.
+    points: 2
+  - category: Network
+    infoName: Latency Test
+    description: Latency spikes intermittently under load due to bandwidth restriction
+      from misconfiguration.
+    points: 2
+  - category: Equipment
+    infoName: Network Switch
+    description: "Switch ports active and functioning, but throughput mirrors the
+      router\u2019s limited output rate."
+    points: 1
+  - category: Environment
+    infoName: Weatherproofing
+    description: Client reports recent severe lightning storm; no visible damage,
+      but electrical interference likely caused router reset.
+    points: 1
+  - category: Power
+    infoName: Power Source
+    description: Main power supply stable post-storm, but logs indicate brief voltage
+      drop during event.
+    points: 1

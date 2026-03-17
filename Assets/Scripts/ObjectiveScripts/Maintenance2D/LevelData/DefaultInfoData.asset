@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322d2ece975511246b69ddb6e084a487, type: 3}
+  m_Name: DefaultInfoData
+  m_EditorClassIdentifier: 
+  defaultInfoEntries:
+  - infoName: "Antenna Alignment"
+    description: "Antenna appears properly aligned with target station. Signal strength within optimal range."
+    points: 0
+  - infoName: "Antenna Mount"
+    description: "Mounting hardware is secure and free from visible corrosion or damage."
+    points: 0
+  - infoName: "Cabling (Outdoor)"
+    description: "Outdoor cabling is properly routed and protected from environmental exposure."
+    points: 0
+  - infoName: "Cabling (Indoor)"
+    description: "Indoor cables are neatly installed with no kinks or loose connectors."
+    points: 0
+  - infoName: "Cable Connectors"
+    description: "All connectors are properly seated and weather-sealed. No moisture or oxidation detected."
+    points: 0
+  - infoName: "Router Configuration"
+    description: "Router configuration matches assigned client plan and responds correctly to pings."
+    points: 0
+  - infoName: "Router Power Supply"
+    description: "Power adapter voltage and amperage readings are normal. No signs of overheating."
+    points: 0
+  - infoName: "Access Point"
+    description: "Access point online, broadcasting expected SSID, and maintaining link stability."
+    points: 0
+  - infoName: "Signal Strength"
+    description: "Signal levels are within service specification. No abnormal fluctuations recorded."
+    points: 0
+  - infoName: "Bandwidth Utilization"
+    description: "Client bandwidth allocation is within configured limits. No congestion observed."
+    points: 0
+  - infoName: "Grounding"
+    description: "All grounding lines are properly attached and resistance values are within safe limits."
+    points: 0
+  - infoName: "Pole Stability"
+    description: "Support pole is upright, stable, and free from excessive movement or rust."
+    points: 0
+  - infoName: "Power Source"
+    description: "Power supply is steady. No irregular voltage drops detected."
+    points: 0
+  - infoName: "Network Switch"
+    description: "Switch operates normally. All connected ports show activity without packet loss."
+    points: 0
+  - infoName: "Customer Premises"
+    description: "Installation site is orderly and free of obstructions around networking equipment."
+    points: 0
+  - infoName: "Weatherproofing"
+    description: "All external housings and sealants are intact. No leaks or water ingress present."
+    points: 0
+  - infoName: "Link Quality"
+    description: "Upstream and downstream link quality meets expected thresholds for this plan."
+    points: 0
+  - infoName: "Latency Test"
+    description: "Average latency remains under 10 ms with no packet drops in continuous test."
+    points: 0
+  - infoName: "Equipment Labels"
+    description: "All installed equipment is properly labeled for maintenance reference."
+    points: 0
+  - infoName: "System Uptime"
+    description: "All devices report continuous uptime since last installation with no restarts."
+    points: 0

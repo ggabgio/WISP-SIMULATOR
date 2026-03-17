@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "933187629225",
+    "project_id": "wispsim-030",
+    "storage_bucket": "wispsim-030.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933187629225:android:b85b05377343ede4adb9b8",
+        "android_client_info": {
+          "package_name": "com.DLCNS.wispsim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2-YrKnAktkKIymJlTUmWOdPB5yWXrL8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

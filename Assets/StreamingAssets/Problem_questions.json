@@ -1,0 +1,105 @@
+{
+  "quizTitle": "Troubleshooting & Maintenance in WISP Installations",
+  "questions": [
+    {
+      "questionText": "What is the first thing a technician should check when a client reports no internet?",
+      "options": [
+        "Replace the router immediately",
+        "Check if the POE device and router are powered on",
+        "Reinstall the antenna",
+        "Format the client’s computer"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "If the POE device has no lights on, what is the most likely issue?",
+      "options": [
+        "Antenna misalignment",
+        "Loose cable or no power supply",
+        "Overheating of router",
+        "Client exceeded bandwidth"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "A client reports intermittent connectivity. The first on-site test should be:",
+      "options": [
+        "Check cable color coding",
+        "Replace the antenna immediately",
+        "Ping the default gateway from a laptop connected via LAN",
+        "Reboot the entire WISP network"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "If the signal strength from the Access Point is low, what is the most common solution?",
+      "options": [
+        "Add more routers inside the house",
+        "Change the Wi-Fi password",
+        "Realign the antenna to face the correct AP direction",
+        "Replace the LAN cable"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "If a client’s router WAN settings were accidentally reset, what should the technician do?",
+      "options": [
+        "Switch the router to bridge mode",
+        "Call the WISP headquarters",
+        "Reconfigure the PPPoE credentials manually",
+        "Disconnect and reconnect the LAN cable"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What can frequent maintenance calls for a specific site indicate?",
+      "options": [
+        "The client uses too many devices",
+        "There is likely a recurring issue with cable quality, antenna placement, or power stability",
+        "They need a new Wi-Fi password",
+        "The router is fully updated"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "If Wi-Fi works on phones but not on the client’s PC, the issue is likely:",
+      "options": [
+        "The antenna is broken",
+        "The cable is too short",
+        "The PC’s network settings or hardware",
+        "The ISP is down"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "A POE adapter feels very hot and the client is losing internet often. What should be done?",
+      "options": [
+        "Hide the adapter behind the TV",
+        "Replace the adapter and check for power source issues",
+        "Switch the POE to LAN port",
+        "Ignore it unless it burns"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+	  "questionText": "What is an important behavior a technician should maintain when dealing with a frustrated client?",
+	  "options": [
+		"Blame the client for the issue",
+		"Speak in technical jargon to sound smart",
+		"Stay calm, listen actively, and explain the situation clearly",
+		"Rush the job to finish quickly"
+	  ],
+	  "correctAnswerIndex": 2
+	},
+    {
+      "questionText": "When should a technician escalate an issue to network-level support?",
+      "options": [
+        "If multiple nearby clients are reporting the same outage",
+        "When one client has low Wi-Fi signal",
+        "After changing the Wi-Fi name",
+        "When the router LED is green"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ]
+}

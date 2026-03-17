@@ -1,0 +1,105 @@
+{
+  "quizTitle": "WISP Installation SOP",
+  "questions": [
+    {
+      "questionText": "What is the first step before beginning a WISP installation at a client's location?",
+      "options": [
+        "Start crimping the LAN cable",
+        "Climb the roof and install the antenna",
+        "Perform a site survey and line-of-sight check",
+        "Install the router inside the house"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Why is it important to secure the antenna firmly during installation?",
+      "options": [
+        "To prevent it from being stolen",
+        "To maintain stable alignment and avoid signal loss due to wind or movement",
+        "To ensure it powers the router properly",
+        "So that rainwater does not affect signal strength"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What should you always do before crimping a LAN cable for a client installation?",
+      "options": [
+        "Measure the client's internet speed",
+        "Strip the cable without untwisting the wire pairs too much",
+        "Insert the cable directly into the router",
+        "Test the cable with a multimeter"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Which direction should excess cable be routed during cable laying?",
+      "options": [
+        "Across walkways for easy access",
+        "Dangling freely from the rooftop",
+        "Tucked neatly along corners or conduits",
+        "Through windows or door hinges"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What is the purpose of using cable clips or conduits during installation?",
+      "options": [
+        "To make installation faster",
+        "To improve internet speed",
+        "To reduce cable costs",
+        "To protect and neatly secure the cable throughout the route"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "Why is it important to test the router and connection inside the house after setup?",
+      "options": [
+        "To update its firmware",
+        "To register the user on the ISP's billing system",
+        "To ensure the client is receiving stable internet before leaving",
+        "To pair it with the antenna wirelessly"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What is a key step in the Signal Optimization process?",
+      "options": [
+        "Upgrading the router firmware",
+        "Crimping another backup cable",
+        "Pointing the antenna toward the nearest access point while monitoring signal strength",
+        "Switching frequencies every 30 seconds"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What kind of maintenance task is typically performed after installation?",
+      "options": [
+        "Repainting the antenna",
+        "Changing the client's password monthly",
+        "Checking signal quality and inspecting for physical damage or cable wear",
+        "Reinstalling the router every month"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Why should installers avoid sharp bends in LAN cables during installation?",
+      "options": [
+        "It makes the installation look messy",
+        "Sharp bends can degrade signal quality or damage internal wires",
+        "It makes crimping more difficult",
+        "Clients might complain about the color of the cable"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What should be done if a crimped cable fails a continuity test?",
+      "options": [
+        "Still use it if it fits into the port",
+        "Trim and recrimp both ends properly and test again",
+        "Try another frequency band",
+        "Restart the router repeatedly"
+      ],
+      "correctAnswerIndex": 1
+    }
+  ]
+}

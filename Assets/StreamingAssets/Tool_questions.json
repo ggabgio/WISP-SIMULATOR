@@ -1,0 +1,105 @@
+{
+  "quizTitle": "Tools and Usage in WISP Installations",
+  "questions": [
+    {
+      "questionText": "What is the primary use of a crimping tool in WISP installations?",
+      "options": [
+        "To cut holes in walls for cable entry",
+        "To check internet signal strength",
+        "To strip insulation from power cables",
+        "To attach RJ45 connectors to Ethernet cables"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "Which tool is used to align a point-to-point antenna during installation?",
+      "options": [
+        "Crimping tool",
+        "Signal strength meter",
+        "Stud finder",
+        "RJ45 punch-down tool"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What does a cable tester do in the context of WISP installation?",
+      "options": [
+        "Secures antennas to poles",
+        "Checks continuity and pin configuration of network cables",
+        "Boosts wireless signal for long-range coverage",
+        "Cuts cables to specific lengths"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Why is a ladder considered an essential tool for WISP technicians?",
+      "options": [
+        "To install routers inside walls",
+        "To access rooftops for antenna installation",
+        "To bury fiber cables underground",
+        "To hang Ethernet cables from ceilings"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What tool is commonly used to strip Ethernet cables cleanly without damaging the internal wires?",
+      "options": [
+        "Multimeter",
+        "Antenna alignment scope",
+        "Cable stripper",
+        "Portable router"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Which handheld tool is best for creating secure terminations for RJ45 connectors?",
+      "options": [
+        "Cable tie gun",
+        "Punch-down tool",
+        "Signal tracer",
+        "Crimping tool"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "What is a POE adaptor used for in WISP installations?",
+      "options": [
+        "To deliver power and data through the same Ethernet cable",
+        "To detect signal interference",
+        "To secure cables along a rooftop",
+        "To amplify antenna signals"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Why might a technician use a level during a WISP setup?",
+      "options": [
+        "To ensure antenna mounts and cable runs are straight and aligned",
+        "To strip wires with precision",
+        "To measure internet speed accurately",
+        "To power POE devices during testing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Which of the following tools would most likely be used to secure outdoor cabling in place?",
+      "options": [
+        "Cable tester",
+        "Wire crimper",
+        "Punch-down tool",
+        "Cable tie gun"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+	  "questionText": "What tool is typically used to drill through concrete or brick walls during cable routing?",
+	  "options": [
+		"RJ45 tester",
+		"Hammer drill",
+		"Punch-down tool",
+		"Cable stripper"
+	  ],
+	  "correctAnswerIndex": 1
+	}
+  ]
+}

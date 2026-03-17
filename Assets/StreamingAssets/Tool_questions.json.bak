@@ -1,0 +1,105 @@
+{
+  "quizTitle": "Tools and Usage in WISP Installations",
+  "questions": [
+    {
+      "questionText": "What is the primary use of a crimping tool in WISP installations?",
+      "options": [
+        "To attach RJ45 connectors to Ethernet cables",
+        "To cut holes in walls for cable entry",
+        "To strip insulation from power cables",
+        "To check internet signal strength"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Which tool is used to align a point-to-point antenna during installation?",
+      "options": [
+        "Signal strength meter",
+        "Crimping tool",
+        "RJ45 punch-down tool",
+        "Stud finder"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "What does a cable tester do in the context of WISP installation?",
+      "options": [
+        "Checks continuity and pin configuration of network cables",
+        "Boosts wireless signal for long-range coverage",
+        "Cuts cables to specific lengths",
+        "Secures antennas to poles"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Why is a ladder considered an essential tool for WISP technicians?",
+      "options": [
+        "To access rooftops for antenna installation",
+        "To install routers inside walls",
+        "To hang Ethernet cables from ceilings",
+        "To bury fiber cables underground"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "What tool is commonly used to strip Ethernet cables cleanly without damaging the internal wires?",
+      "options": [
+        "Cable stripper",
+        "Multimeter",
+        "Antenna alignment scope",
+        "Portable router"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "What is the purpose of a punch-down tool in WISP work?",
+      "options": [
+        "To terminate cables into keystone jacks or patch panels",
+        "To test antenna signal levels",
+        "To drill holes through concrete",
+        "To secure cable mounts to walls"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Which tool helps technicians identify signal loss or breaks in Ethernet cables?",
+      "options": [
+        "Time-domain reflectometer (TDR)",
+        "Screwdriver set",
+        "Cable tie gun",
+        "Cordless drill"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "What is a POE adaptor used for in WISP installations?",
+      "options": [
+        "To deliver power and data through the same Ethernet cable",
+        "To amplify antenna signals",
+        "To secure cables along a rooftop",
+        "To detect signal interference"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Why might a technician use a level during a WISP setup?",
+      "options": [
+        "To ensure antenna mounts and cable runs are straight and aligned",
+        "To measure internet speed accurately",
+        "To strip wires with precision",
+        "To power POE devices during testing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Which of the following tools would most likely be used to secure outdoor cabling in place?",
+      "options": [
+        "Cable tie gun",
+        "Wire crimper",
+        "Punch-down tool",
+        "Cable tester"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ]
+}

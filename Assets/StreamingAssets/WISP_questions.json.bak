@@ -1,0 +1,35 @@
+{
+  "quizTitle": "WISP Fundamentals",
+  "questions": [
+    {
+      "questionText": "What does WISP stand for?",
+      "options": [
+        "Wireless Internet Signal Provider",
+        "Wide Internet Service Provider",
+        "Wireless Internet Service Provider",
+        "Wired Internet Service Platform"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What is the main technology WISPs use to provide internet access?",
+      "options": [
+        "Fiber optics",
+        "Satellite links",
+        "Cellular towers",
+        "Wireless radio signals"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "WISPs usually serve which type of area?",
+      "options": [
+        "Densely populated urban centers",
+        "Areas already covered by cable providers",
+        "Remote or rural areas with limited infrastructure",
+        "Underwater cable networks"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
+}

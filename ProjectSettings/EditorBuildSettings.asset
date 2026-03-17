@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleLogin.unity
+    guid: 1469d2e7fbdbd514b8098923fe8e2d29
+  - enabled: 1
+    path: Assets/Scenes/mainMenu.unity
+    guid: 29eae0e175d7fda41878bbee94378f5f
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 752a8bbe2854a7d48ad54877b731b452
+  - enabled: 1
+    path: Assets/Scenes/QuizScene.unity
+    guid: 3d5212727801a134fb96bd102ecee7f1
+  - enabled: 1
+    path: Assets/Scenes/trainingScenes/T1_AntennaInstall.unity
+    guid: c691358958c7c3447919b1122113ee78
+  - enabled: 1
+    path: Assets/Scenes/trainingScenes/T2_RouterInstall.unity
+    guid: cd3d8a9482106a2458d2dddb1a23aeac
+  - enabled: 1
+    path: Assets/Scenes/trainingScenes/T3_Crimping.unity
+    guid: 74612169980631943a43dcf916569f95
+  - enabled: 1
+    path: Assets/Scenes/trainingScenes/T4_CableLaying.unity
+    guid: 89ac607e53ef3e444aa37b2ef7c71cbe
+  - enabled: 1
+    path: Assets/Scenes/trainingScenes/T5_SignalOptimization.unity
+    guid: 964d20b73c3cb9946b1ec175f600a801
+  - enabled: 1
+    path: Assets/Scenes/maintenanceScenes/Maintenance.unity
+    guid: c1af0ae18149a3244a0fab2a49187ab0
+  - enabled: 1
+    path: Assets/Scenes/assessmentScenes/newTest_Duplicate.unity
+    guid: 54222cb65ab79a9469c8e333bfa5abfd
+  - enabled: 1
+    path: Assets/Scripts/ObjectiveScripts/Maintenance2D/Fix Scenes/M1_Fix.unity
+    guid: a396b0cca623cc34f80b3990433df197
+  - enabled: 1
+    path: Assets/Scripts/ObjectiveScripts/Maintenance2D/Fix Scenes/M2_Fix.unity
+    guid: 7052a1cb7e7e9cb46863875f5db47552
+  - enabled: 1
+    path: Assets/Scripts/ObjectiveScripts/Maintenance2D/Fix Scenes/M3_Fix.unity
+    guid: 2676d846f2a608d4b84f5c451e6ae3ae
+  - enabled: 0
+    path: Assets/Scripts/ObjectiveScripts/Maintenance2D/Fix Scenes/M3_Fix old.unity
+    guid: 0e57e9c7bb13b974fa611c7b44304020
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7a21e0e28ee23f148962b274a76205e7, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 896a5cbcfb463844abda63cc3b8aef3e, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 52f2ef27f4971ed4d938aa7e37861d64, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 68097d41d4ffc354dac4b591abdd0fc9, type: 2}
+  m_UseUCBPForAssetBundles: 0

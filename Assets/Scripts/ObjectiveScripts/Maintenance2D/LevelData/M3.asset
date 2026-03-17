@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a076423bcce386f41af0bb078d5d1df2, type: 3}
+  m_Name: M3
+  m_EditorClassIdentifier: 
+  levelName: Intermittent Connection Drops
+  clientName: Daniel Lee
+  plan: WISP Home 25 Mbps
+  customerReport: The connection keeps cutting in and out, especially when it rains. Sometimes it’s fine, but other times the internet just dies for a few seconds.
+  correctFix: Re-crimp Cable Connector
+  fixSceneName: M3_Fix
+  requiredPointsToFix: 6
+  infoPoints:
+  - category: Cabling
+    infoName: Cable Connectors
+    description: Outdoor RJ45 connector shows signs of corrosion and moisture buildup, causing poor contact and packet loss.
+    points: 6
+  - category: Cabling
+    infoName: Cabling (Outdoor)
+    description: Cable jacket near connector is exposed to moisture; protective boot missing or damaged.
+    points: 2
+  - category: Cabling
+    infoName: Cabling (Indoor)
+    description: Indoor cabling intact; no visible damage or stress points near termination.
+    points: 0
+  - category: Network
+    infoName: Signal Strength
+    description: Signal fluctuates rapidly, consistent with unstable physical connection at the cable termination.
+    points: 2
+  - category: Network
+    infoName: Link Quality
+    description: Upstream and downstream link quality intermittently drops due to poor cable contact.
+    points: 2
+  - category: Network
+    infoName: Bandwidth Utilization
+    description: Throughput fluctuates heavily; network speed often drops below 5 Mbps during corrosion-induced interference.
+    points: 2
+  - category: Network
+    infoName: Latency Test
+    description: Latency spikes and packet drops observed every few seconds, matching moisture exposure pattern.
+    points: 2
+  - category: Equipment
+    infoName: Access Point
+    description: Access point is online and stable, indicating the issue lies in the physical connection to the router.
+    points: 0
+  - category: Equipment
+    infoName: Router Configuration
+    description: Configuration verified correct; issue not related to settings.
+    points: 0
+  - category: Power
+    infoName: Power Source
+    description: Power readings stable; no irregularities detected.
+    points: 0
+  - category: Environment
+    infoName: Weatherproofing
+    description: Outdoor junction box seal partially deteriorated, allowing moisture to reach RJ45 connector.
+    points: 1
+  - category: System
+    infoName: System Uptime
+    description: Devices show normal uptime, confirming the issue is not from reboots.
+    points: 0
+  - category: Equipment
+    infoName: Network Switch
+    description: Switch port connected to outdoor cable shows frequent link resets and auto-negotiation attempts.
+    points: 2
+  - category: Site
+    infoName: Customer Premises
+    description: Equipment placement exposed to outdoor humidity; cable run not fully shielded from rain.
+    points: 1

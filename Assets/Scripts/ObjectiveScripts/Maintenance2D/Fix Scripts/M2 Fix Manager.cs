@@ -1,0 +1,107 @@
+using UnityEngine;
+using System.Linq;
+using System.Threading.Tasks;
+using UnityEngine.SceneManagement;
+
+public class M2_FixManager : AbstractObjectiveManager
+{
+    [Header("Level References")]
+    public RouterConfiguration routerConfiguration;
+
+    [Header("Player References")]
+    [SerializeField] private MonoBehaviour playerLookScript;
+
+    [Header("Maintenance Scoring Parameters")]
+    [SerializeField] private int _infoParCount = 5;
+    [SerializeField] private float _infoPenaltyPercent = 5.0f;
+    [SerializeField] private float _incorrectFixPenaltyPercent = 10.0f;
+    
+    [Header("UI")]
+    [SerializeField] private ResultsPanel _resultsPanelScript;
+
+    private float _initialDiagnosisTime;
+    private int _infoActionsUsed;
+    private int _incorrectFixes;
+    private string _levelId;
+    
+    protected override void OnLevelStart()
+    {
+        if (LoadingData.Instance != null)
+        {
+            _initialDiagnosisTime = LoadingData.Instance.diagnosisTime;
+            _infoActionsUsed = LoadingData.Instance.infoActionsUsed;
+            _incorrectFixes = LoadingData.Instance.incorrectFixes;
+            _levelId = LoadingData.Instance.levelId;
+        }
+    }
+
+    protected override async void OnLevelEnd(float totalScore, float totalTime)
+    {
+        await System.Threading.Tasks.Task.Delay(100);
+        if (playerLookScript != null) playerLookScript.enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        float diagnosisAccuracyScore = 100f;
+        int infoActionsOverPar = Mathf.Max(0, _infoActionsUsed - _infoParCount);
+        diagnosisAccuracyScore -= (infoActionsOverPar * _infoPenaltyPercent);
+        diagnosisAccuracyScore -= (_incorrectFixes * _incorrectFixPenaltyPercent);
+        diagnosisAccuracyScore = Mathf.Max(0, diagnosisAccuracyScore);
+
+        float fixObjectiveRawScore = allObjectives.Sum(o => o.GetScore());
+        float fixObjectiveMaxScore = allObjectives.Count * 100f;
+        float fixAccuracyScore = (fixObjectiveMaxScore > 0) ? (fixObjectiveRawScore / fixObjectiveMaxScore) * 100f : 0f;
+
+        float averageAccuracy = (diagnosisAccuracyScore + fixAccuracyScore) / 2f;
+        float finalAccuracyComponent = (averageAccuracy / 100f) * 70f;
+        
+        float finalTotalTime = _initialDiagnosisTime + this.elapsedTime;
+        
+        float timeScoreMultiplier = CalculateTimeScore(finalTotalTime);
+        float finalTimeComponent = timeScoreMultiplier * 30f;
+        
+        float finalTotalScore = Mathf.Clamp(finalAccuracyComponent + finalTimeComponent, 0f, 100f);
+        
+        if (_resultsPanelScript != null)
+        {
+            _resultsPanelScript.gameObject.SetActive(true);
+            _resultsPanelScript.DisplayResults(finalTotalTime, _infoActionsUsed, _incorrectFixes, finalTotalScore);
+        }
+        
+        if (UserSessionData.Instance != null && !string.IsNullOrEmpty(_levelId))
+        {
+            await UserSessionData.Instance.UpdateMaintenanceLevelProgress(_levelId, true, finalTotalScore);
+        }
+    }
+
+    public void StartConfigurationMinigame()
+    {
+        var configObjective = currentObjective as M2_ConfigureRouterObjective;
+        if (configObjective != null)
+        {
+            configObjective.StartMinigameLogic();
+        }
+    }
+
+    public void ReturnToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneFader fader = FindObjectOfType<SceneFader>();
+        if (fader != null)
+        {
+            fader.FadeOutAndLoad("mainMenu");
+        }
+        else
+        {
+            SceneManager.LoadScene("mainMenu");
+        }
+    }
+
+    protected override async void OnLevelQuit()
+    {
+        if (UserSessionData.Instance != null && !string.IsNullOrEmpty(_levelId))
+        {
+            await UserSessionData.Instance.UpdateMaintenanceLevelProgress(_levelId, false, 0f);
+        }
+    }
+}

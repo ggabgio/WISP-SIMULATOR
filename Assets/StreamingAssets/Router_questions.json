@@ -1,0 +1,105 @@
+{
+  "quizTitle": "Router Configuration in WISP Installations",
+  "questions": [
+    {
+      "questionText": "What does PPPoE stand for in WISP router configuration?",
+      "options": [
+        "Point-to-Point Protocol over Ethernet",
+        "Private Protocol over External Network",
+        "Public Proxy for Online Ethernet",
+        "Passive Packet Protocol over Ethernet"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Which setting must be entered when configuring a router for PPPoE WAN type?",
+      "options": [
+        "Wi-Fi frequency",
+        "LAN IP address",
+        "PPPoE username and password",
+        "Router MAC address"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Where is the WAN port typically located on a home router?",
+      "options": [
+        "Next to the power button",
+        "On the bottom of the device",
+        "Beside the LAN ports and usually colored differently",
+        "Directly connected to the Wi-Fi antenna"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Why do WISPs commonly use PPPoE instead of DHCP for WAN connections?",
+      "options": [
+        "It’s faster than DHCP",
+        "PPPoE allows better client authentication and session control",
+        "DHCP does not work on wireless networks",
+        "PPPoE prevents internet theft through MAC filtering"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What is the typical default IP address used to access a router’s configuration page?",
+      "options": [
+        "192.168.1.1",
+        "10.10.10.10",
+        "255.255.255.0",
+        "172.0.0.1"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Which feature is commonly used to prevent unauthorized access to the Wi-Fi network?",
+      "options": [
+        "Static routing",
+        "Port forwarding",
+        "WPA2/WPA3 encryption with a password",
+        "DHCP server enable"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "After router setup, which indicator light confirms internet connectivity on most consumer routers?",
+      "options": [
+        "LAN light blinking",
+        "Wi-Fi light solid",
+        "Power light steady",
+        "WAN/Internet light on or blinking"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "In a WISP setup, which device is typically connected directly to the WAN port of the router?",
+      "options": [
+        "Client’s laptop",
+        "POE adapter connected to the outdoor antenna",
+        "Access point inside the house",
+        "Smart TV"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What is the function of DHCP in a router’s LAN settings?",
+      "options": [
+        "Encrypts all outgoing WAN traffic",
+        "Distributes local IP addresses automatically to devices on the network",
+        "Authenticates the router to the ISP",
+        "Disables firewall settings for faster speeds"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What should a technician do if the router does not connect after entering correct PPPoE credentials?",
+      "options": [
+        "Replace the router immediately",
+        "Switch to DHCP mode and retry",
+        "Check cabling and reboot both the router and POE device",
+        "Disable the firewall to allow login"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
+}

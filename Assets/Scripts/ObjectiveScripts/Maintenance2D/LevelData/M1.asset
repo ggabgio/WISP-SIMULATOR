@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a076423bcce386f41af0bb078d5d1df2, type: 3}
+  m_Name: M1
+  m_EditorClassIdentifier: 
+  levelName: Signal Loss After Storm
+  clientName: Maria Santos
+  plan: WISP Home Plan 10 Mbps
+  customerReport: Customer reports total signal loss after a storm last night.
+  correctFix: Adjust Antenna Alignment
+  fixSceneName: M1_Fix
+  requiredPointsToFix: 6
+  infoPoints:
+  - category: Physical
+    infoName: Antenna Alignment
+    description: Antenna is visibly tilted off-axis, no longer pointing toward the
+      main tower.
+    points: 6
+  - category: Physical
+    infoName: Antenna Mount
+    description: Mounting hardware is slightly loosened, likely due to strong winds,
+      causing antenna tilt.
+    points: 2
+  - category: Physical
+    infoName: Cabling (Outdoor)
+    description: The outdoor LAN cable is pulled tight and is under tension, but
+      shows no external damage.
+    points: 1
+  - category: Network
+    infoName: Access Point
+    description: Access point is active and broadcasting a local Wi-Fi signal, but
+      reports "No Internet Connection."
+    points: 2
+  - category: Network
+    infoName: Signal Strength
+    description: Signal reading is extremely low (-95 dBm), well below the operational
+      threshold.
+    points: 2
+  - category: Network
+    infoName: Bandwidth Utilization
+    description: Bandwidth monitoring unavailable due to loss of upstream connection.
+    points: 1
+  - category: Structural
+    infoName: Pole Stability
+    description: Support pole is upright but shows slight wobble in high wind.
+    points: 1
+  - category: Network
+    infoName: Network Switch
+    description: Switch ports show normal activity on local devices but no uplink.
+    points: 1
+  - category: Environmental
+    infoName: Weatherproofing
+    description: Client confirms there was a recent storm with heavy rain and strong
+      winds.
+    points: 1
+  - category: Network
+    infoName: Link Quality
+    description: Connection to the tower is unstable and repeatedly times out.
+    points: 2
+  - category: Network
+    infoName: Latency Test
+    description: Ping test fails with a "cannot resolve host" error.
+    points: 1
+  - category: Equipment
+    infoName: System Uptime
+    description: Devices report stable uptime prior to storm event.
+    points: 1

@@ -1,0 +1,105 @@
+{
+  "quizTitle": "WISP Fundamentals",
+  "questions": [
+    {
+      "questionText": "What does WISP stand for?",
+      "options": [
+        "Wireless Internet Signal Provider",
+        "Wide Internet Service Provider",
+        "Wireless Internet Service Provider",
+        "Wired Internet Service Platform"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What is the main technology WISPs use to provide internet access?",
+      "options": [
+        "Fiber optics",
+        "Satellite links",
+        "Cellular towers",
+        "Wireless radio signals"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "WISPs usually serve which type of area?",
+      "options": [
+        "Densely populated urban centers",
+        "Areas already covered by cable providers",
+        "Remote or rural areas with limited infrastructure",
+        "Underwater cable networks"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Which of the following is essential in a WISP network?",
+      "options": [
+        "Underground cable trenching",
+        "Point-to-point or point-to-multipoint antennas",
+        "Gas-powered routers",
+        "Optical drives"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What is the purpose of an Access Point (AP) in a WISP setup?",
+      "options": [
+        "It boosts mobile phone signals",
+        "It stores internet data",
+        "It transmits wireless signals to clients",
+        "It encrypts DNS traffic"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Which frequency bands are commonly used by WISPs?",
+      "options": [
+        "5 GHz and 60 GHz",
+        "2.4 GHz and 5 GHz",
+        "1.2 GHz and 3.5 GHz",
+        "800 MHz and 900 MHz"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "What is one major challenge WISPs face in rural areas?",
+      "options": [
+        "Fiber optic competition",
+        "Cable theft",
+        "Line-of-sight obstruction (trees, terrain)",
+        "Overcrowded airwaves"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Why would a WISP install a relay tower?",
+      "options": [
+        "To access satellite signals",
+        "To sell data plans",
+        "To bypass obstructions and extend signal reach",
+        "To process payments on-site"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What is a common advantage of using a WISP over satellite internet?",
+      "options": [
+        "Faster installation and lower latency",
+        "More TV channels",
+        "Unlimited mobile data",
+        "Government subsidies"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Which of the following best describes a customer premise equipment (CPE) in a WISP setup?",
+      "options": [
+        "A billing system at the WISP office",
+        "A modem/router at the client's home receiving wireless signal",
+        "A government-issued frequency license",
+        "The van used by technicians"
+      ],
+      "correctAnswerIndex": 1
+    }
+  ]
+}

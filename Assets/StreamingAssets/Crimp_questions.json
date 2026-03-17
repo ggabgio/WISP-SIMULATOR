@@ -1,0 +1,105 @@
+{
+  "quizTitle": "Crimping and Wires in WISPs",
+  "questions": [
+    {
+      "questionText": "What is the purpose of crimping in WISP installations?",
+      "options": [
+        "To solder fiber cables",
+        "To attach connectors to cables for secure signal transmission",
+        "To insulate copper wires",
+        "To extend cable length"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Which tool is commonly used to crimp RJ45 connectors onto Ethernet cables?",
+      "options": [
+        "Wire stripper",
+        "Cable tester",
+        "RJ45 crimping tool",
+        "Screwdriver"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What cable type is typically used in a WISP setup to connect CPE devices?",
+      "options": [
+        "HDMI cable",
+        "Ethernet (Cat5e or Cat6)",
+        "Coaxial TV cable",
+        "USB cable"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Why is it important to test a crimped cable before installation?",
+      "options": [
+        "To check the brand of the cable",
+        "To measure the length",
+        "To ensure all wires are properly connected and transmitting signal",
+        "To charge the cable battery"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What does 'T568B' refer to in networking?",
+      "options": [
+        "A signal amplifier",
+        "A wireless frequency",
+        "A wiring standard for Ethernet cables",
+        "A satellite dish size"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Improper crimping can lead to which of the following issues?",
+      "options": [
+        "Faster internet speeds",
+        "Improved latency",
+        "Intermittent or no connectivity",
+        "Longer cable life"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Which type of cable is best suited for outdoor WISP installations?",
+      "options": [
+        "Shielded Ethernet cable with UV protection",
+        "Standard indoor power cable",
+        "Phone line cable",
+        "Plastic-coated coaxial cable"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "What is a common tool used to remove insulation from wires before crimping?",
+      "options": [
+        "Wire cutter",
+        "Soldering iron",
+        "Wire stripper",
+        "Pliers"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Why is shielding important in Ethernet cables for WISP use?",
+      "options": [
+        "It adds color to the cable",
+        "It protects the wires from water damage",
+        "It reduces electromagnetic interference (EMI)",
+        "It improves crimping speed"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "What does a cable tester do in the context of WISP installations?",
+      "options": [
+        "Connects a client to the internet",
+        "Secures the cable to the wall",
+        "Verifies the integrity and pinout of a crimped cable",
+        "Measures Wi-Fi signal strength"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
+}
